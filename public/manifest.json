@@ -1,0 +1,10 @@
+{
+  "short_name": "Potrero.Life Portal",
+  "name": "Potrero.Life Portal",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
