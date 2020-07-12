@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Login from './components/pages/Login'
-import TenantInfo from './components/TenantInfo'
+import Balance from './components/tenant/Balance'
 import Header from './components/layout/Header'
 import About from './components/pages/About'
+import Alert from './components/Alert'
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
           <Route exact path="/" render={ props => (
             <React.Fragment>
               <Header />
-              <TenantInfo />
+              <Balance />
             </React.Fragment>
           )} />
           <Route path="/about" component={ About } />

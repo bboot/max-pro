@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TenantInfo extends Component {
+class Balance extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class TenantInfo extends Component {
   }
 }
 
-export default TenantInfo;
+export default Balance;
