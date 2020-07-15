@@ -1,6 +1,6 @@
 import { accountService } from '../services';
 
-export const fetchWrapper = {
+export const requests = {
     get,
     post,
     put,

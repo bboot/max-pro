@@ -1,6 +1,6 @@
 import { BehaviorSubject } from 'rxjs';
 
-import config from 'config';
+import config from '../webpack.config';
 import { requests, history } from '../lib';
 
 const userSubject = new BehaviorSubject(null);
@@ -81,7 +81,7 @@ function getById(id) {
 }
 
 function create(params) {
-    return reqeuests.post(baseUrl, params);
+    return requests.post(baseUrl, params);
 }
 
 function update(id, params) {
