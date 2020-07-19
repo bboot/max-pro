@@ -1,0 +1,9 @@
+npx create-react-app app
+git clone http://github.com/bboot/max-pro.git
+cd max-pro
+mv ../app/node_modules .
+npm i react-router-dom
+npm i rxjs
+npm i bluebird@3.5.5 (maybe need this step, try without first)
+npm start
+
